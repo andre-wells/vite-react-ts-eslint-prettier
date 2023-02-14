@@ -129,3 +129,19 @@ Warning: React version not specified in eslint-plugin-react settings. See https:
   11:5   error  'React' must be in scope when using JSX                                                                                                                                                react/react-in-jsx-scope
   12:7   error  'React' must be in scope when using JSX                                                                                                                                                react/react-in-jsx-scope
 ```
+
+We can fix these later or by adjusting our rules in our ESLint config. The important thing is they're working.
+
+
+### Adding Prettier
+
+```bash
+yarn add eslint-config-prettier eslint-plugin-prettier prettier --dev
+```
+
+After installing above, make changes to .eslintrc file.
+
+```js
+ extends: ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"]
+
+```
