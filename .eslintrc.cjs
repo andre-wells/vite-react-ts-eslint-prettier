@@ -9,6 +9,7 @@ module.exports = {
     'standard-with-typescript',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:react/recommended',
     'plugin:prettier/recommended',
     'prettier'
